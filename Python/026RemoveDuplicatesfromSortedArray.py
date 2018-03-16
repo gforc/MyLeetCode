@@ -26,9 +26,6 @@ class Solution:
             
             if item not in nums_dict.keys() :
                 new_nums.append(item)
-                nums_dict[item] = 0    
-                
-        
-       
+                nums_dict[item] = 0      
     
         return new_nums
