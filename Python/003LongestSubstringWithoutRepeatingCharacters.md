@@ -1,5 +1,5 @@
 
-
+```
 dict = {}  
 class Solution:  
     def lengthOfLongestSubString(self,s):  
@@ -19,3 +19,4 @@ class Solution:
     
 aa = Solution()      
 aa.lengthOfLongestSubString('abcabvdabcdef')  
+```
