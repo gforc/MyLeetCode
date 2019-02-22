@@ -15,6 +15,25 @@ class Solution(object):
         else:
             return result
 
+class solution1(): ## this method is better
     
+    def plusOne(self,digits):
+        
+        i = len(digits)-1  
+        while i >= 0:
+            if digits[i] == 9:
+                digits[i] = 0
+                i-=1
+                print('!!!!!!! = %s' % digits)
+            
+            else:
+                digits[i] +=1
+                print('@@@@@@@ = %s' % digits)
+                return digits
+            
+        result = [1] + digits      
+        print(result)
+        return result
+        
 if __name__ == "__main__":
     print (Solution().plusOne([9, 9, 9, 9]))
